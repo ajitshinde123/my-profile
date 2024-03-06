@@ -7,7 +7,7 @@
 }
 
       header{
-        padding: 20px;
+        padding: 10px;
         background-color: rgb(216, 244, 245);
         font-family: "Roboto", sans-serif;
       }
@@ -15,6 +15,7 @@
 #navSection{
     padding: 10px;
     text-align: right;
+   
 }
 #navSection li{
     display: inline;
@@ -92,4 +93,17 @@ font-weight: bold;
       }
       #position{
         position: fixed;
+      }
+      #navsection{
+        position: fixed;
+      }
+      #chat{
+        width: 100px;
+            height: 100px;
+        color: blue; 
+        display: inline-block;
+        bottom: 10px;
+         right: 10px;
+         /* position: static;   By Default */
+         position: fixed;
       }
